@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Biblioteca</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BibliotecaDanielSanchez83.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="bg-white border-b shadow-md">
+            <div class="container mx-auto flex justify-between items-center py-4 px-6">
+                <a class="text-2xl font-bold text-gray-800" asp-area="" asp-controller="Home" asp-action="Index">
+                    BibliotecaDanielSanchez83
+                </a>
+                <div class="space-x-4">
+                    <a asp-area="" asp-controller="Libros" asp-action="LibrosUser"
+                       class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                       Ver Libros
+                    </a>
+                    <a asp-area="" asp-controller="Account" asp-action="Login"
+                       class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                       Iniciar Sesión
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

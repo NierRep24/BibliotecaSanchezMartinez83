@@ -1,0 +1,51 @@
+﻿@model BibliotecaDanielSanchez83.Models.Domain.Usuario
+@{
+    Layout = "_LayoutDashboard";
+}
+
+<div class="container-fluid">
+    <div class="offset-12">
+        <div class="card border">
+            <div class="card-header bg-dark">
+                <h1 class="text-white"><strong>Editar usuario</strong></h1>
+            </div>
+
+            <div class="card-body">
+
+                <form asp-action="Editar" method="post">
+                    <input type="hidden" asp-for="PkUsuario" />
+
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label">Nombre</label>
+                        <input asp-for="Nombre" class="form-control" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="UserName" class="control-label">Usuario</label>
+                        <input asp-for="UserName" class="form-control" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Password" class="control-label">Contraseña</label>
+                        <input asp-for="Password" class="form-control" placeholder="Deja en blanco para no cambiarla" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="FkRol" class="control-label">Rol</label>
+                        <select asp-for="FkRol" asp-items="ViewBag.Roles" class="form-control">
+                            <option value="">-- Selecciona un rol --</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </form>
+
+                <a asp-controller="Usuario" asp-action="Index">Volver</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,117 @@
+﻿@model IEnumerable<BibliotecaDanielSanchez83.Models.Domain.Autor>
+
+@{
+    Layout = "_LayoutDashboard";
+}
+
+<div class="flex flex-col flex-1 p-6">
+    <h1 class="text-blue-900 text-xl font-bold">Autores</h1>
+
+    <div class="mt-4">
+        <a asp-action="Crear" asp-controller="Autor" class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-600">
+            <i class=""></i> Nuevo Autor
+        </a>
+    </div>
+
+    <div class="mt-6 bg-white shadow-md rounded-lg p-4">
+        <h1 class="text-lg font-semibold mb-4">Lista de Autores</h1>
+
+        @if (Model.Any())
+        {
+            <div class="overflow-x-auto">
+                <table id="tblAutor" class="w-full border border-gray-200 text-left">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="p-2 border">Nombre</th>
+                            <th class="p-2 border">Biografía</th>
+                            <th class="p-2 border">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var autor in Model)
+                        {
+                            <tr class="border hover:bg-gray-50">
+                                <td class="p-2 border">@autor.Nombre</td>
+                                <td class="p-2 border">@autor.Biografia</td>
+                                <td class="p-2 border">
+                                    <a class="text-green-500 hover:bg-green-50 hover:text-green-500 p-2 rounded-lg" asp-action="Editar" asp-route-id="@autor.PkAutor">Editar</a>
+                                    <a class="text-red-500 hover:bg-red-50 hover:text-red-500 p-2 rounded-lg eliminar-autor" data-id="@autor.PkAutor"><i class="da-solid fa-trash"></i>Eliminar</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <p class="text-gray-500">No hay autores registrados.</p>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Configuración de DataTable
+            $('#tblAutor').DataTable({
+                language: {
+                    "decimal": "",
+                    "emptyTable": "No hay información",
+                    "info": "Mostrando START a END de TOTAL Entradas",
+                    "infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
+                    "infoFiltered": "(Filtrado de MAX total entradas)",
+                    "infoPostFix": "",
+                    "thousands": ",",
+                    "lengthMenu": "Mostrar MENU Entradas",
+                    "loadingRecords": "Cargando...",
+                    "processing": "Procesando...",
+                    "search": "Buscar:",
+                    "zeroRecords": "Sin resultados encontrados",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Ultimo",
+                        "next": "Siguiente",
+                        "previous": "Anterior"
+                    }
+                }
+            });
+
+            // Eliminar autor
+            $('.eliminar-autor').on('click', function () {
+                Swal.fire({
+                    title: "¿Estás seguro de que deseas borrar este autor?",
+                    text: "¡No podrás revertir esto!",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#3085d6",
+                    cancelButtonColor: "#d33",
+                    confirmButtonText: "Sí, deseo borrar!"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        var autorId = $(this).data('id');
+
+                        $.ajax({
+                            url: '/Autor/Eliminar/' + autorId,
+                            type: 'DELETE',
+                            success: function (data) {
+                                console.log(data)
+                                if (data.succes == true) {
+                                    //debugger
+                                    location.reload(); // Recarga la página completa
+                                }
+                            }
+                        });
+
+                        Swal.fire({
+                            title: "¡Eliminado!",
+                            text: "El autor ha sido eliminado correctamente.",
+                            icon: "success",
+                            timer: 700
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+}

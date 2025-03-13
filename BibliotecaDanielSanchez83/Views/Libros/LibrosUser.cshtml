@@ -1,0 +1,45 @@
+﻿@model IEnumerable<BibliotecaDanielSanchez83.Models.Domain.Libro>
+
+@{
+    Layout = "_LayoutDashboard_User";
+}
+
+<div class="flex flex-col sm:flex-row justify-between items-center mb-4 gap-2">
+    <!-- Input de búsqueda -->
+    <input type="text" id="searchInput" class="w-full sm:w-1/2 p-2 border rounded-lg" placeholder="Buscar libro por título...">
+
+    <!-- Selector de orden -->
+    <select  id="sortOrder" class="px-4 py-2 border rounded" onchange="window.location.href = this.value;">
+        <option value="">Filtrar por...</option>
+        <option value="@Url.Action("LibrosUser", "Libros", new { orden = "reciente" })">Más Recientes</option>
+        <option value="@Url.Action("LibrosUser", "Libros", new { orden = "antiguo" })" >Más Antiguos</option>
+    </select>
+</div>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="bookGrid">
+    @foreach (var libro in Model)
+    {
+        <div class="bg-white shadow-sm rounded-lg overflow-hidden book-item" data-date="@libro.Fecha">
+            <div class="p-4">
+                <h5 class="text-xl font-semibold text-gray-800">@libro.Titulo</h5>
+                <p class="text-sm text-gray-600 mt-2">@libro.Descripcion</p>
+                <p class="text-sm text-gray-600 mt-2">@libro.FechaPublicacion</p>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        // Filtrado por título
+        document.getElementById("searchInput").addEventListener("keyup", function () {
+            var input = this.value.toLowerCase();
+            var books = document.querySelectorAll(".book-item");
+
+            books.forEach(book => {
+                var title = book.querySelector("h5").textContent.toLowerCase();
+                book.style.display = title.includes(input) ? "" : "none";
+            });
+        });
+    </script>
+}

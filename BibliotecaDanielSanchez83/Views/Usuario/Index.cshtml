@@ -1,0 +1,140 @@
+﻿@model IEnumerable<BibliotecaDanielSanchez83.Models.Domain.Usuario>
+@{
+    Layout = "_LayoutDashboard";
+}
+
+<div class="flex flex-col flex-1 p-6">
+    <h1 class="text-blue-900 text-xl font-bold">
+        Dashboard
+    </h1>
+
+    <div class="mt-4">
+        <a asp-action="Crear" asp-controller="Usuario" class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-600">
+            <i class=""></i> Nuevo
+        </a>
+    </div>
+
+    <div class="mt-6 bg-white shadow-md rounded-lg p-4">
+        <h1 class="text-lg font-semibold mb-4">Lista de usuarios</h1>
+
+        @if (Model.Count() > 0)
+        {
+            <div class="overflow-x-auto">
+                <table id="tblUsuario" class="w-full border border-gray-200 text-left">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="p-2 border">@Html.DisplayNameFor(x => x.Nombre)</th>
+                            <th class="p-2 border">@Html.DisplayNameFor(x => x.UserName)</th>
+                            <th class="p-2 border">Rol</th>
+                            <th class="p-2 border">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var Item in Model)
+                        {
+                            <tr class="border hover:bg-gray-50">
+                                <td class="p-2 border">@Html.DisplayFor(x => Item.Nombre)</td>
+                                <td class="p-2 border">@Html.DisplayFor(x => Item.UserName)</td>
+                                <td class="p-2 border">@Html.DisplayFor(x => Item.Roles.Nombre)</td>
+                                <td class="p-2 border">
+                                    <a class="text-green-500 hover:bg-green-50 hover:text-green-500 p-2 rounded-lg" asp-action="Editar" asp-route-id=@Item.PkUsuario>Editar</a>
+                                    <a class="text-red-500 hover:bg-red-50 hover:text-red-500 p-2 rounded-lg eliminar-usuario" data-id="@Item.PkUsuario"><i class="da-solid fa-trash"></i>Eliminar</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <p class="text-gray-500">No hay registros</p>
+        }
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            //Llamar a datatable
+            $('#tblUsuario').DataTable({
+                language: {
+                    "decimal": "",
+                    "emptyTable": "No hay información",
+                    "info": "Mostrando START a END de TOTAL Entradas",
+                    "infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
+                    "infoFiltered": "(Filtrado de MAX total entradas)",
+                    "infoPostFix": "",
+                    "thousands": ",",
+                    "lengthMenu": "Mostrar MENU Entradas",
+                    "loadingRecords": "Cargando...",
+                    "processing": "Procesando...",
+                    "search": "Buscar:",
+                    "zeroRecords": "Sin resultados encontrados",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Ultimo",
+                        "next": "Siguiente",
+                        "previous": "Anterior"
+                    }
+                }
+            });
+
+
+
+            $('.eliminar-usuario').on('click', function () {
+                //if (confirm('¿Estás seguro de que deseas eliminar este artículo?')) {}
+
+
+                Swal.fire({
+                    title: "Esta seguro que deseas borrar?",
+                    text: "No podrás revertir esto.!",
+                    icon: "warning",
+
+                    showCancelButton: true,
+                    confirmButtonColor: "#3085d6",
+                    cancelButtonColor: "#d33",
+                    confirmButtonText: "Sí, deseo borrar!"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+
+                        var usuarioId = $(this).data('id');
+
+                        $.ajax({
+                            url: '/Usuario/Eliminar/' + usuarioId,
+                            type: 'DELETE',
+                            success: function (data) {
+                                console.log(data)
+
+                                if (data.succes == true) {
+                                    //debugger
+                                    location.reload(); // Recarga la página completa
+
+                                }
+
+                            }
+                        });
+
+
+                        Swal.fire({
+                            title: "Eliminando!",
+                            text: "ha sido eliminado correctamente.",
+                            icon: "success",
+                            timer: 700
+                        });
+                    }
+                });
+
+            });
+
+        });
+
+
+
+
+
+
+    </script>
+
+}

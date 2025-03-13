@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "BibliotecaDanielSanchez83.Controllers.UsuarioApiController",
+    "Method": "Login",
+    "RelativePath": "api/usuario/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BibliotecaDanielSanchez83.ViewModels.UsuarioLoginViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BibliotecaDanielSanchez83.Controllers.UsuarioApiController",
+    "Method": "Register",
+    "RelativePath": "api/usuario/registro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BibliotecaDanielSanchez83.ViewModels.UsuarioRegisterViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

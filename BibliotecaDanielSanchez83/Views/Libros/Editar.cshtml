@@ -1,0 +1,68 @@
+﻿@model BibliotecaDanielSanchez83.ViewModels.LibroCreateViewModel
+@{
+    Layout = "_LayoutDashboard";
+}
+
+<div class="flex flex-col flex-1 p-6">
+    <div class="bg-white shadow-md rounded-lg p-6">
+        <h1 class="text-2xl font-bold text-blue-900 mb-6">Editar Libro</h1>
+
+        <form asp-action="Editar" method="post" class="space-y-4">
+            <!-- Campo oculto para el ID -->
+            <input asp-for="PkLibro" type="hidden" />
+
+            <!-- Título -->
+            <div class="flex flex-col">
+                <label asp-for="Titulo" class="text-gray-700 font-semibold">Título</label>
+                <input asp-for="Titulo" class="mt-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ingresa el título" required />
+                <span asp-validation-for="Titulo" class="text-red-500 text-sm"></span>
+            </div>
+
+            <!-- Autor -->
+            <div class="flex flex-col">
+                <label asp-for="FkAutor" class="text-gray-700 font-semibold">Autor</label>
+                <select asp-for="FkAutor" asp-items="ViewBag.Autores" class="mt-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <option value="">-- Selecciona un autor --</option>
+                </select>
+                <span asp-validation-for="FkAutor" class="text-red-500 text-sm"></span>
+            </div>
+
+            <!-- Categorías -->
+            <div class="flex flex-col">
+                <label for="Categorias" class="text-gray-700 font-semibold">Categorías</label>
+                <select asp-for="CategoriaIds" asp-items="ViewBag.Categorias" multiple class="mt-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <!-- La selección de categorías anteriores se manejará automáticamente en el controlador -->
+                </select>
+                <span asp-validation-for="CategoriaIds" class="text-red-500 text-sm"></span>
+            </div>
+
+            <!-- Año de Publicación -->
+            <div class="flex flex-col">
+                <label asp-for="FechaPublicacion" class="text-gray-700 font-semibold">Año de Publicación</label>
+                <input asp-for="FechaPublicacion" class="mt-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ingresa el año de publicación" required />
+                <span asp-validation-for="FechaPublicacion" class="text-red-500 text-sm"></span>
+            </div>
+
+            <!-- Descripción -->
+            <div class="flex flex-col">
+                <label asp-for="Descripcion" class="text-gray-700 font-semibold">Descripción</label>
+                <textarea asp-for="Descripcion" class="mt-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Ingresa la descripción"></textarea>
+                <span asp-validation-for="Descripcion" class="text-red-500 text-sm"></span>
+            </div>
+
+            <!-- Botón de Guardar -->
+            <div class="mt-6">
+                <button type="submit" class="w-full bg-blue-900 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                    <i class="fas fa-save"></i> Guardar
+                </button>
+            </div>
+        </form>
+
+        <!-- Enlace para Volver -->
+        <div class="mt-4">
+            <a asp-controller="Libros" asp-action="Index" class="text-blue-900 hover:text-blue-700">
+                <i class="fas fa-arrow-left"></i> Volver
+            </a>
+        </div>
+    </div>
+</div>

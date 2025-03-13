@@ -1,0 +1,410 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\services\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\services\\services\\usuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\views\\libros\\librosuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\views\\libros\\librosuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\services\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\services\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\services\\iservices\\iusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\services\\iservices\\iusuarioservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\views\\shared\\_layoutdashboard_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\views\\shared\\_layoutdashboard_user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\views\\shared\\_layoutdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\views\\shared\\_layoutdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\services\\services\\rolservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\services\\services\\rolservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\services\\services\\autorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\services\\services\\autorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\services\\iservices\\ilibrosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\services\\iservices\\ilibrosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\services\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\services\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\services\\services\\librosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\services\\services\\librosservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|c:\\users\\daniel\\source\\repos\\bibliotecadanielsanchez83\\bibliotecadanielsanchez83\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60150A66-04E9-43F0-92E0-5C220F7D7A75}|BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83.csproj|solutionrelative:bibliotecadanielsanchez83\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:29:14.961Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioServices.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\UsuarioServices.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Services\\Services\\UsuarioServices.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\UsuarioServices.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Services\\Services\\UsuarioServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:15:09.424Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUsuarioServices.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\IServices\\IUsuarioServices.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Services\\IServices\\IUsuarioServices.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\IServices\\IUsuarioServices.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Services\\IServices\\IUsuarioServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:00:56.877Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowHMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T22:05:06.764Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibrosUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Libros\\LibrosUser.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Views\\Libros\\LibrosUser.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Libros\\LibrosUser.cshtml",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Views\\Libros\\LibrosUser.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T23:42:18.05Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T23:01:35.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T22:59:35.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Controllers\\RolController.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAqwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T19:00:47.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Services\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Services\\Services\\CategoriaService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwBoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:43:53.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AutorController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Controllers\\AutorController.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Controllers\\AutorController.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Controllers\\AutorController.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Controllers\\AutorController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:20:09.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AutorServices.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\AutorServices.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Services\\Services\\AutorServices.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\AutorServices.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Services\\Services\\AutorServices.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswEcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:17:20.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ILibrosServices.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\IServices\\ILibrosServices.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Services\\IServices\\ILibrosServices.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\IServices\\ILibrosServices.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Services\\IServices\\ILibrosServices.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:24:59.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_LayoutDashboard_User.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Shared\\_LayoutDashboard_User.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Views\\Shared\\_LayoutDashboard_User.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Shared\\_LayoutDashboard_User.cshtml",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Views\\Shared\\_LayoutDashboard_User.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T18:15:51.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LibrosServices.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\LibrosServices.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Services\\Services\\LibrosServices.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\LibrosServices.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Services\\Services\\LibrosServices.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAADwvywAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:44:36.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RolServices.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\RolServices.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Services\\Services\\RolServices.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\RolServices.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Services\\Services\\RolServices.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T17:44:03.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Usuario\\Editar.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Views\\Usuario\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Usuario\\Editar.cshtml",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Views\\Usuario\\Editar.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T00:18:42.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Services\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Services\\Services\\JwtService.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Services\\Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwCIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T00:08:58.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAYwH8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T23:42:53.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T22:17:06.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T22:16:46.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T20:02:41.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_LayoutDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Shared\\_LayoutDashboard.cshtml",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Views\\Shared\\_LayoutDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Views\\Shared\\_LayoutDashboard.cshtml",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Views\\Shared\\_LayoutDashboard.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T19:52:56.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Program.cs",
+              "RelativeDocumentMoniker": "BibliotecaDanielSanchez83\\Program.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\BibliotecaDanielSanchez83\\BibliotecaDanielSanchez83\\Program.cs",
+              "RelativeToolTip": "BibliotecaDanielSanchez83\\Program.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAIwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T02:29:42.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
